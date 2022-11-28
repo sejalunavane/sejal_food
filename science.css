@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(141, 134, 119);
+    box-sizing: border-box;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+   
+}
+
+h1{
+    font-size: xx-large;
+    text-align: center;
+    color: rgb(47, 3, 75);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h2{
+    font-size: x-large;
+    text-align: center;
+    color: rgb(58, 1, 112);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+p{
+    font-size: larger;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+h3{
+    font-size: x-large;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(90, 65, 4);
+}
+h4{
+    margin-top: -89%;
+    font-size: x-large;
+    text-align: center;
+    color: rgb(108, 31, 31);
+}
+
+button{
+    border-radius: 5px;
+    background-color: rgb(4, 132, 132);
+    color: white;
+    margin-left: 11%;
+    width: 7%;
+    height: 25%;
+}
+
+button:hover{
+    background-color: rgb(201, 59, 59);
+    color: black;
+
+}
+
+img{
+    width: 25%;
+    border-radius: 12px ;
+    margin-left: 2%;
+    border: solid black;
+    
+}
+
+.btn{
+ margin-left: -11%;
+ 
+    
+
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links  li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px px;
+    position: relative;
+}
+.nav-links li a{
+    color: rgb(223, 236, 235);
+    text-decoration: none;
+    font-size: 21px;
+}
+.nav-links  li::after{
+    content: '';
+    width: 100px;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links  li:hover::after{
+    width: 100%;
+}
+
+h5{
+    font-size: x-large;
+    text-align: center;
+    color: rgb(56, 5, 5);
+}
+.flow{
+    width: 151%;
+    margin-left: 25%;
+}

@@ -1,265 +1,84 @@
-/*CSS RESAT*/
 *{
-    margin: 0;
-    padding: 0;
-}
-html{
-    scroll-behavior: smooth;
-}
-/* CSS VARIABLES*/
-:root{
-    --navbar-height: 45px;
-}
-
-/*NAVIGATION BAR*/
-#navbar{
-    display: flex;
-    flex-direction: column;
-
-    position: relative;
-    top: 0px;
-
-
-
-    
-
-}
-/*NAVIGATION BAR: Logo andImage */
-
-/*NAVIGATION BAR: List styling*/
-
-    
-#logo img{
-    height: 85px;
-   height: 3px 6px;
-   margin: 0px;
-   flex-direction: column;
-   display: flex;
-
-   
-}
-/* Navigation Bar: List styling*/
-
-
-#navbar ul{
-    display: flex;
- 
-    font-family: 'Oswald', sans-serif;
-
-}
-
-#navbar::before{
-    content:"";
-    background-color: black;
-  
-    top: 0px;
-    left: 0px;
-    height:100%;
-    width: 106%;
-    z-index: -1;
-    opacity: 0.4;
-}
-#navbar ul li{
-
-   list-style: none;
-   font-size: 1.3rem;
-  
-
-}
-#navbar ul li a{
-    color: white;
-    display: block;
-    padding: 3px 22px;
-    border-radius: 20px;
-    text-decoration: none;
-}
-#navbar ul li a:hover{
-    color: black;
-    background-color: white;
-    
-}
-    
-/*Home Section*/
-#home{
-    display: flex;
-    flex-direction: column;
-   
-    padding: 3px 200px;
-    height: 528px;
-    justify-content: center;
-    align-items: center;
-    margin: -1%;
-    padding: 0%;
-}
-#home::before{
-    content:"";
-    background: URL(fast-food.jpg) no-repeat center center/cover;
-    position: absolute;
-    height: 100%;
-    top: 0px;
-    left: 0px;
-    width: 106%;
-    z-index: -1;
-    opacity: 0.89;
-}
-#home1{
-    color: white;
-    text-align: center;
-   
-}
-#home p{
-    color: white;
-    text-align: center;
-    font-size: 19px;
-    font-family:'Oswald', sans-serif;
-}
-/*Services Section*/
-#services{
     margin: 0px;
-  
-  
-  
-}
-.box{
-    border: solid red;
-    position: relative;
-    border-radius: 5px;
-    margin: 9px;
-    padding: 5px;
-    background-color: lightyellow;
-
-}
-#services .box p{
-    font-family: 'Josefin Sans', sans-serif;
-}
-
-#services.box img{
-    height: 100px;
-    margin: auto;
-    display: block;
-   
-}
-img{
-    display: block;
-    margin: auto;
- 
-}
-/*Clients section*/
-#client-section{
+    padding: 0px;
+   box-sizing: border-box;
     
-    height:-1px;
-    margin: 0;
-    padding: 0;
+font-family: 'Roboto', sans-serif;
 }
-#client-section::before{
-    content: "";
-    position: absolute;
-    background: url(vectorfood.jpg);
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    opacity: 0.4;
-}
-#clients{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.client-item{
-    padding: 34px;
-}
-#clients img{
-     height: 25%;
-     width: 125;
+
 
 
 
-}
-
-/*contact sectiom*/
-
-#contact{
-    position: relative;
+.container{
+        max-width: 45%; 
+        padding: 9%; 
+        margin: auto;
+        margin-left: 15%;
+        
     
-}
-#contact::before{
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    opacity: 0.7;
-    background: url(Keep\ Food\ Safe.jpg) no-repeat center center/cover;
-    padding: 0%;
-    margin: 0px;
-}
-#contact-box{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 34px;  
-}
-#contact-box label{
-   font-size:1.3rem;
-   font-family: 'Josefin Sans', sans-serif;
-
-}
-#contact-box form{
-    width: 40%;
     
-}
-#contact-box input,
-#contact-box textarea{
-    width: 100%;
-    padding: 0.5%;
-    border-radius: 9px;
-    font-size: 1.1rem;
+  
+    
 
-}
-
-footer{
-    background: black;
-    color:white;
-    padding: 9px 20px;
+ }
 
 
-}
-
-/*Utility Classes */
-h1.h-primary{
-    font-size: 39px;
-}
-
-.h-primary{
+.container h1 {
+    text-align: center;
+    font-family: monospace;
     font-size: 40px;
-    padding: 9px;
-    font-family: 'Josefin Sans', sans-serif;
 }
-h2.h-secondary{
-    font-size: 26px;
+
+p{
+    font-size: 17px;
+    text-align: center;
+    font-family: 'Sriracha', cursive;
 }
-.h-secondary{
-    font-size: 1.8rem;
-    padding: 9px;
-    font-family: 'Josefin Sans', sans-serif;
+
+input, textarea{
+    
+    border: 2px solid black; 
+    border-radius: 9px; 
+    outline: none;
+    font-size: 16px;
+    width: 80%;
+    margin: 11px 0px;
+    padding: 7px;
 }
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .btn{
-    padding: 6px 20px;
-    border: 2px solid white;
-    background-color: brown;
     color: white;
-    margin: 17px;
-    font-size: 19px;
-    border-radius: 10px;
+    background: purple;
+    padding: 8px 12px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 14px;
     cursor: pointer;
 }
 .btn:hover{
-    color: burlywood;
-    background-color: chocolate;
-    
-}
-.centre{
-    text-align: center;
+    background-color: green;
 }
 
-    
+
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.6;
+}
+.submitMsg{ 
+    color: green;
+}
+
+
+
+
+
+
+
